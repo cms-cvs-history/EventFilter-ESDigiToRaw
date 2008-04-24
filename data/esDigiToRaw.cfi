@@ -1,5 +1,5 @@
 module esDigiToRaw = ESDigiToRaw {
-   string Label = "ecalPreshowerDigis"
+   string Label = "simEcalPreshowerDigis"
    string InstanceES = ""
    untracked bool debugMode = false 
 }
