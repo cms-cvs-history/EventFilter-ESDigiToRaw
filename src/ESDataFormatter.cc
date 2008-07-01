@@ -1,7 +1,7 @@
 #include "EventFilter/ESDigiToRaw/interface/ESDataFormatter.h"
-#include "EventFilter/Utilities/interface/FEDHeader.h"
-#include "EventFilter/Utilities/interface/FEDTrailer.h"
-#include "EventFilter/Utilities/interface/Crc.h"
+#include "EventFilter/FEDInterface/interface/FEDHeader.h"
+#include "EventFilter/FEDInterface/interface/FEDTrailer.h"
+#include "FWCore/Utilities/interface/CRC16.h"
 
 const int ESDataFormatter::bDHEAD    = 2;
 const int ESDataFormatter::bDH       = 6;
